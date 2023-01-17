@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/What-Would-Chuck-Norris-Say/static/css/main.63e98e36.css",
+    "main.js": "/What-Would-Chuck-Norris-Say/static/js/main.9853c865.js",
+    "static/js/787.9925424e.chunk.js": "/What-Would-Chuck-Norris-Say/static/js/787.9925424e.chunk.js",
+    "static/media/hero-bg.jpg": "/What-Would-Chuck-Norris-Say/static/media/hero-bg.4443fcaf640a33469ba1.jpg",
+    "static/media/norris-2.png": "/What-Would-Chuck-Norris-Say/static/media/norris-2.a0c70d7edaeb483006d9.png",
+    "static/media/meme1.webp": "/What-Would-Chuck-Norris-Say/static/media/meme1.a5d4bf37828f49530bf1.webp",
+    "static/media/meme2.webp": "/What-Would-Chuck-Norris-Say/static/media/meme2.9772e3691d5cfe71a8a4.webp",
+    "static/media/meme6.png": "/What-Would-Chuck-Norris-Say/static/media/meme6.c29bd6cb978271eb5e24.png",
+    "static/media/meme5.jpeg": "/What-Would-Chuck-Norris-Say/static/media/meme5.2fbbca8031fc4a2c3420.jpeg",
+    "static/media/meme3.jpeg": "/What-Would-Chuck-Norris-Say/static/media/meme3.9003471768744e48dbff.jpeg",
+    "static/media/norris-7.jpeg": "/What-Would-Chuck-Norris-Say/static/media/norris-7.5eef6639e4a1bbc1f4eb.jpeg",
+    "static/media/norris-6.jpeg": "/What-Would-Chuck-Norris-Say/static/media/norris-6.2ee63893ff2498289aaa.jpeg",
+    "static/media/norris-4.jpeg": "/What-Would-Chuck-Norris-Say/static/media/norris-4.0463ffa89c7f451742ad.jpeg",
+    "static/media/meme4.jpeg": "/What-Would-Chuck-Norris-Say/static/media/meme4.1b53bb402ff9b8ace3fb.jpeg",
+    "index.html": "/What-Would-Chuck-Norris-Say/index.html",
+    "main.63e98e36.css.map": "/What-Would-Chuck-Norris-Say/static/css/main.63e98e36.css.map",
+    "main.9853c865.js.map": "/What-Would-Chuck-Norris-Say/static/js/main.9853c865.js.map",
+    "787.9925424e.chunk.js.map": "/What-Would-Chuck-Norris-Say/static/js/787.9925424e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63e98e36.css",
+    "static/js/main.9853c865.js"
+  ]
+}
