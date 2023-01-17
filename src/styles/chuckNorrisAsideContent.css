@@ -1,0 +1,30 @@
+.chuck-norris-aside-content {
+    background-image: linear-gradient(to right top, #c2554f, #d27066, #e28b7f, #f1a69a, #ffc1b5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 20px;
+    width: 10rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.aside-heading {
+    font-size: 0.8rem;
+    color: #C2554F;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .aside-heading {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+

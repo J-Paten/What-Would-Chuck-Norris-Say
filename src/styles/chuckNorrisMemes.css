@@ -1,0 +1,26 @@
+.meme-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+.meme-images img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .meme-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .meme-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

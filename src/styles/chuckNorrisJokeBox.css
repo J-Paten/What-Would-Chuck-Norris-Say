@@ -1,0 +1,53 @@
+.chuck-norris-joke-box {
+    background-color: #C2554F;
+    width: 100%;
+    height: 20rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joke-box-heading {
+    font-size: 1.3rem;
+    color: #FE8A80;
+    text-align: center;
+}
+
+.joke-panel {
+    border: 1px solid #FFC1B5;
+    height: 50%;
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    padding: 1rem 0 1rem;
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 0.2rem;
+    align-self: center;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.joke-box-text {
+    color: #fff;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .joke-box-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .joke-box-text {
+        font-size: 1rem;
+    }
+}
+

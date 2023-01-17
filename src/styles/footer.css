@@ -1,0 +1,64 @@
+.footer {
+    background-image: linear-gradient(to right top, #c2554f, #d15a50, #e16050, #f06650, #ff6c4f);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff;
+}
+
+.designer-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #FE8A80;
+}
+
+/* Footer Nav */
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav-list-item {
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+
+.fa-house-user, .fa-question, .fa-masks-theater, .fa-meetup, .fa-camera{
+    margin-right: 0.5rem; 
+}
+
+.footer-nav-list-item a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-nav-list-item a:hover {
+    text-decoration: none;
+    color: #FFBD4D;
+}
+
+@media screen and (min-width: 768px) {
+    .designer-heading {
+        font-size: 1.3rem;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-nav-list-item {
+        font-size: 1.3rem;
+    }
+}

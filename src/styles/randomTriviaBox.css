@@ -1,0 +1,64 @@
+.random-number-trivia-box {
+    background-color: #C2554F;
+    width: 100%;
+    height: 20rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trivia-box-heading {
+    font-size: 1.3rem;
+    color: #FE8A80;
+    text-align: center;
+}
+
+.trivia-panel {
+    border: 1px solid #FFC1B5;
+    height: 50%;
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    padding: 1rem 0 1rem;
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 0.1rem;
+    margin-top: 0.2rem;
+    align-self: center;
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #ff8d76;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #ffb7a9;
+}
+
+.trivia-box-text {
+    color: #fff;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .trivia-box-heading {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .trivia-box-text {
+        font-size: 1rem;
+    }
+}
+

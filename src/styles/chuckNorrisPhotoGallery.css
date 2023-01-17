@@ -1,0 +1,25 @@
+.chuck-norris-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chuck-norris-images img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .chuck-norris-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chuck-norris-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

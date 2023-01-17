@@ -1,0 +1,43 @@
+.website-description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFC1B5;
+    width: auto;
+}
+
+
+.website-description-heading {
+    font-size: 1rem;
+    text-align: center;
+    color: #C2554F;
+}
+
+.website-desc-quick-heading {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    color: #C2554F;
+}
+
+.website-description-list {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.website-description-list-item {
+    color: #FFF;
+}
+
+
+@media screen and (min-width:768px){
+    .website-description-heading {
+        font-size: 1.5rem;
+    }
+
+    .website-desc-quick-heading {
+        font-size: 1.8rem;
+    }
+
+}

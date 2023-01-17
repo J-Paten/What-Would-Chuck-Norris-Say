@@ -1,0 +1,45 @@
+.navbar {
+    background-image: linear-gradient(to right top, #fe8a80, #ff9473, #ffa065, #ffae58, #ffbd4d);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-list {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list-item {
+    list-style-type: none;
+    margin: 0.5rem;
+}
+
+.nav-list-item a:hover {
+    color: #FFBD4D;
+}
+
+.nav-list-item a {
+   text-decoration: none;
+   color: #FFF;
+}
+
+
+/*  Nav Icons */
+
+.fa-house-user, .fa-question, .fa-masks-theater, .fa-meetup, .fa-camera{
+    margin-right: 0.5rem;
+    color: #FFC1B5;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
